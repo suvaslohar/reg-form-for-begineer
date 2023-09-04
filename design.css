@@ -1,0 +1,99 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-image: url(backg.jpg);
+    height: 100%;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    border-width: 10px;
+    border-style:double;
+    border-radius: 80px;
+    border-color:rgb(73, 1, 255);
+    position: absolute;
+    left: 510px;
+    top: 10px;
+}
+.formbg {
+    background-color: aliceblue;
+    height: 540px;
+    width: 400px;
+    position: absolute;
+    left: 360px;
+    top: 55px;
+    z-index: -1;
+    border-radius: 30px;
+}
+.table {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    left: 500px;
+    top: 520px;
+    
+
+}
+.entrybox {
+    height: 24px;
+    width: 230px;
+    border-color:blue;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color:white;
+}
+.add {
+    height: 30px;
+    width: 200px;
+    border-color: rgb(3, 129, 247);
+    border-radius: 10px;
+    border-width: 2px;
+    background-color:aqua;
+}
+.submit {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    background-color:rgb(6, 6, 249);
+    font-size: 20px;
+
+    color:white;
+    cursor: pointer;
+    
+    
+}
+body,html {
+    height: 100%;
+}
+.city {
+    height: 24px;
+    width: 130px;
+    border-color: rgb(198, 165, 202);
+    border-radius: 15px;
+    border-width: 2px;
+    background-color:white;
+}
+
+.heading {
+    color: darkred;
+}
+p {
+    color:red;
+    position: absolute;
+    top: 540px;
+    left: 450px;
+    text-emphasis-color: red;
+    font-size: 25px;
+}
+.admin {
+  cursor: pointer;
+  background-color: cornflowerblue;
+  border-color: black;
+  border-width: 2px;
+
+}
